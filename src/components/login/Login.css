@@ -1,0 +1,132 @@
+.login-container {
+    display: flex;
+    height: 100vh; 
+  }
+  
+  .login-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%; 
+    max-width: 300px; 
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    padding: 8px; 
+    font-size: 14px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    position: relative; 
+  }
+  
+  .login-image img:first-of-type {
+    height: 100vh; 
+    width: 100%; 
+    object-fit: cover; 
+  }
+  
+  .login-image img:last-of-type {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 110px; 
+    height: auto; 
+    z-index: 1; 
+  }
+  
+  .welcome-text {
+    position: absolute;
+    text-align: center; 
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  
+  .password-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-container input {
+    flex: 1;
+  }
+  
+  .toggle-password {
+    margin-left: 10px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .login-button {
+    display: none;
+  }
+  
+  .login-form button {
+    display: block;
+  }
+  
+  .password-input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .password-input-container input {
+    flex: 1;
+    padding-right: 40px; 
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  

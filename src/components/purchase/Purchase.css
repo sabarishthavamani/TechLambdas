@@ -1,0 +1,168 @@
+
+
+
+
+body {
+    overflow-x: hidden;
+  }
+  .purchase-form {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical; 
+    min-height: 100px; 
+  }
+  
+  .boxsizing {
+    width: 450px;
+  }
+  .buttons-container {
+    display: flex;
+    left: 850px;
+    justify-content: flex-end; 
+    gap: 10px; 
+    margin-top: 20px; 
+    margin-left: 80%;
+  }
+  
+  .cancel-button, .submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    color: white;
+    background-color: gray;
+  }
+  
+  .submit-button {
+    color: white;
+    background-color: blue;
+  }
+  
+  .cancel-button:hover {
+    background-color: #444;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  .Mail-Box {
+    position: absolute; 
+    right: 330px; 
+    top: 40%;
+    transform: translateY(-50%); 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .image-container {
+    position: absolute; 
+    right: 200px; 
+    top: 55%;
+    transform: translateY(-50%); 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .sample-image {
+    width: 200px;
+    height: auto; 
+  }
+  
+  .image-button {
+    padding: 30px 20px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: none;
+    width: 450px;
+    margin-bottom: 50%;
+    /* margin-top: 90%; */
+    /* text-align: 250px; */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  }
+  
+  .image-button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+  }
+  
+  
+  
+  .product-container {
+    padding-top: 5%;
+    position: absolute; 
+    margin-top: 10%;
+    transform: translateY(-50%); 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: 40%;
+  }
+  
+  
+  
+  .custom-button {
+    display: flex;
+    align-items: center;
+    color: black; 
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    /* transition: background-color 0.3s, transform 0.2s; */
+  }
+  
+  
+  
+  .button-icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .button-text {
+    font-size: 18px; 
+  }
+  
